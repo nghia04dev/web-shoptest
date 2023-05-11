@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: tahoma;
+}
+header{
+    display: flex;
+    background-color: #001c40;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 50px 0px;
+    color: white;
+    justify-content: space-between;
+    position: relative;
+}
+header a.logo{
+    color: white;
+    margin: 0px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: arial;
+    font-size: 20px;
+}
+nav ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    margin: 0px 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: gray;
+}
+.seach{
+    width: 300px;
+    height: 30px;
+    margin: 0px 20px;
+    border: 1px solid;
+    background-color: white;
+    border-radius: 3px;
+}
+.seach input{
+    width: 80%;
+    height: 100%;
+    padding: 0px 10px;
+    border: none;
+    border-radius: 5px;
+}
+.seach input:focus{
+    outline: none;
+}
+.seach button{
+    width: 10%;
+    height: 100%;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#check_menu,#check_seach,label{
+    display: none;
+    cursor: pointer;
+    font-size: 18px;
+    border: 1px solid;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
